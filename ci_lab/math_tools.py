@@ -3,7 +3,7 @@
 def average(numbers: list[float]) -> float:
     if not numbers:
         raise ValueError("numbers must not be empty")
-    return sum(numbers) / len(numbers) + 1
+    return sum(numbers) / len(numbers)
 
 def median(numbers: list[float]) -> float:
     if not numbers:
